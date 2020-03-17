@@ -1,4 +1,5 @@
-export default function tiny_loader(opt) {
+export default tiny_loader
+export function tiny_loader(opt) {
   const D = document
   const src = 'string' === typeof opt ? opt : opt.src
   if (src === opt) opt = {src: opt}
